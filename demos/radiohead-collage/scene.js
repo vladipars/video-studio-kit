@@ -358,9 +358,9 @@ const SCENES = [
     if (t > s2 - 0.2) {
       g.fillStyle = 'rgba(227,211,192,0.96)'; g.fillRect(W * (1 - clamp((t - s2 + 0.2) * 5)), 0, W, H)
       card('guit', 540, 520, 500, 420, { k: P01(t, s2), rot: -3, mode: 'drop' }, (w, h) => { g.fillStyle = '#f6efdf'; g.fillRect(0, 0, w, h); guitarIcon(w / 2, h * 0.62, 2.1, P.red) })
-      label('gb', 'A GUITAR BAND COULD BE...', 540, 790, { k: P01(t, s2 + 0.4), size: 40, font: F.block, paper: P.ink, color: P.white, rot: -2 })
-      ;['EXPERIMENTAL', 'ATMOSPHERIC', 'AMBITIOUS'].forEach((s, i) => ransom('adj' + i, s, 540, 920 + i * 125, 92, s2 + 1.1 + i * 0.6, t, { stagger: 0.025 }))
-      card('chart', 540, 1310, 700, 250, { k: P01(t, s2 + 3.2), rot: 2, paper: P.white }, (w, h) => { chartUp(w, h, P01(t, s2 + 3.4, 0.9)); txt('...AND A HIT', 40, 60, { font: F.mark, size: 40, color: P.teal }) })
+      label('gb', 'A GUITAR BAND COULD BE...', 540, 770, { k: P01(t, s2 + 0.4), size: 40, font: F.block, paper: P.ink, color: P.white, rot: -2 })
+      ;['EXPERIMENTAL', 'ATMOSPHERIC', 'AMBITIOUS'].forEach((s, i) => ransom('adj' + i, s, 540, 890 + i * 112, 88, s2 + 1.1 + i * 0.6, t, { stagger: 0.025 }))
+      card('chart', 540, 1255, 640, 160, { k: P01(t, s2 + 3.2), rot: 2, paper: P.white }, (w, h) => { chartUp(w, h, P01(t, s2 + 3.4, 0.9)); txt('...AND A HIT', 40, 60, { font: F.mark, size: 40, color: P.teal }) })
     }
   },
   // 8. legacy, and the last line
