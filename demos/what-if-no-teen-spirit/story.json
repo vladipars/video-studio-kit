@@ -1,0 +1,15 @@
+{
+  "format": "vertical",
+  "beats": [
+    { "style": "ps2what", "seconds": 4.6, "from": "1991-08", "to": "1991-09", "spray": [0.30, 0.32], "hud": "THE TAPE", "line": "Seattle, 1991. A band records one loud song... and shelves it." },
+    { "style": "ps2what", "seconds": 4.2, "from": "1991-09", "to": "1991-12", "spray": [0.32, 0.36], "hud": "SIGNAL LOST", "line": "The tape never leaves the garage." },
+    { "style": "ps2what", "seconds": 4.6, "from": "1992-01", "to": "1992-12", "spray": [0.36, 0.55], "hud": "HAIR METAL LIVES", "line": "So the radio keeps blasting hair metal." },
+    { "style": "ps2what", "seconds": 4.4, "from": "1993-01", "to": "1993-12", "spray": [0.55, 0.62], "hud": "FLANNEL: CLEARANCE", "line": "Flannel stays a lumberjack thing." },
+    { "style": "ps2what", "seconds": 4.6, "from": "1994-01", "to": "1994-12", "spray": [0.62, 0.92], "hud": "MAX HAIR UNLOCKED", "line": "Teens tease their hair higher every year." },
+    { "style": "ps2what", "seconds": 4.4, "from": "1995-01", "to": "1995-12", "spray": [0.92, 0.96], "hud": "NEON FOREVER", "line": "Music TV stays one long neon party." },
+    { "style": "ps2what", "seconds": 4.6, "from": "1996-01", "to": "1997-06", "spray": [0.96, 0.9], "hud": "QUIET CITY", "line": "Seattle stays a quiet, rainy coffee town." },
+    { "style": "ps2what", "seconds": 4.4, "from": "1997-07", "to": "1998-12", "spray": [0.9, 0.7], "hud": "DAY JOB", "line": "Garage bands keep their day jobs." },
+    { "style": "ps2what", "seconds": 4.8, "from": "1999-01", "to": "2000-12", "spray": [0.7, 0.04], "hud": "OUT OF SPRAY", "line": "By 2000, hair metal runs out of hairspray." },
+    { "style": "ps2what", "seconds": 7.4, "from": "2001-09", "to": "2001-09", "spray": [0.04, 0.04], "hud": "TEN YEARS LATER", "line": "Then a kid finds the old tape... and presses play." }
+  ]
+}
